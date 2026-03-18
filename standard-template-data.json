@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.7.0",
-    "generatedAt": "2026-03-18T03:30:32.593Z",
+    "version": "1.8.0",
+    "generatedAt": "2026-03-18T03:44:59.878Z",
     "templateType": "full_banner_wipe",
     "propertyId": "62f170ca-cf16-4dd4-8a0d-1f539ce41302",
     "homepageId": "fb1de3e6-511a-473a-bad1-97af6fa64190"
@@ -702,7 +702,15 @@
               },
               "closing": {
                 "title": "",
-                "images": []
+                "images": [
+                  {
+                    "id": "8a751dc1-73c2-43ce-a2cd-be7875902005",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_closing/1773805492006-mr91simeota.jpg",
+                    "sortOrder": 0,
+                    "description": "",
+                    "isSelected": true
+                  }
+                ]
               },
               "essence": {
                 "title": "해둥실 미리보기",
@@ -732,8 +740,52 @@
                 "description": "오션뷰 객실에서 일출과 일몰을 즐기는 감성 숙소\n청결한 침구와 쾌적한 공간으로 편안한 휴식을 제공합니다.\n\n여름에는 바다가 보이는 바베큐장, \n겨울에는 화목난로와 함께 따뜻한 바베큐\n실미도 3분, 하나개해수욕장 8분 거리의 뛰어난 위치\n\n소형 반려견과 함께 머물 수 있는 펜션입니다 🐶"
               },
               "gallery": {
-                "title": "",
-                "images": []
+                "title": "해둥실펜션의 다양한 즐길거리",
+                "images": [
+                  {
+                    "id": "fa66e23b-6670-47dd-a1cb-f3a9dc9c4c2b",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_gallery/1773805162226-t9056bc45ci.jpg",
+                    "sortOrder": 0,
+                    "description": "하나개 해수욕장",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "7b6bd8f5-4005-400a-8861-33ffe51e48f7",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_gallery/1773805162226-ekauycxjfnh.jpg",
+                    "sortOrder": 0,
+                    "description": "오션뷰",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "d6548e01-8526-402a-8925-7aedecd1d1dd",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_gallery/1773805162226-6mbzipgbqo9.jpg",
+                    "sortOrder": 1,
+                    "description": "오션뷰객실",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "3d93857e-7e12-4495-84ec-3404f1c481cc",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_gallery/1773805162226-afgy86y9117.jpg",
+                    "sortOrder": 2,
+                    "description": "공용바베큐장",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "4b0c613b-cc42-4949-a264-38b8386402ff",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_gallery/1773805162226-fk00icm831i.jpg",
+                    "sortOrder": 3,
+                    "description": "만화방",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "8ca0bd87-83df-410f-a84d-6a858e5fcd52",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_gallery/1773805252381-3bqfsdhrat6.jpg",
+                    "sortOrder": 4,
+                    "description": "애견동반",
+                    "isSelected": true
+                  }
+                ],
+                "description": "해둥실펜션의 다양한 즐길거리"
               },
               "signature": {
                 "title": "",
