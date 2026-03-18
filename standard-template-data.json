@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.5.0",
-    "generatedAt": "2026-03-18T03:24:18.350Z",
+    "version": "1.6.0",
+    "generatedAt": "2026-03-18T03:28:36.459Z",
     "templateType": "full_banner_wipe",
     "propertyId": "62f170ca-cf16-4dd4-8a0d-1f539ce41302",
     "homepageId": "fb1de3e6-511a-473a-bad1-97af6fa64190"
@@ -635,9 +635,9 @@
       }
     ],
     "seo": {
-      "title": "",
-      "description": "",
-      "keywords": ""
+      "title": "무의도 해둥실펜션",
+      "description": "오션뷰와 바베큐, 반려견과 함께하는 무의도 감성 휴식 공간",
+      "keywords": "무의도펜션,해둥실펜션,오션뷰펜션,애견동반펜션,인천여행"
     },
     "socialLinks": {},
     "customFields": {
@@ -881,12 +881,20 @@
             {
               "hero": {
                 "title": "",
-                "images": []
+                "images": [
+                  {
+                    "id": "28f5a217-e32c-4aa8-aafa-629a2e5ea25e",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/reservation_hero/1773804500239-uzklfw1z75n.jpg",
+                    "sortOrder": 0,
+                    "description": "",
+                    "isSelected": true
+                  }
+                ]
               },
               "about": {
-                "title": "",
+                "title": " ",
                 "images": [],
-                "description": ""
+                "description": " "
               }
             }
           ]
@@ -916,7 +924,10 @@
             "family": "Noto Serif KR"
           }
         },
-        "color": null
+        "color": {
+          "primary": "#E8E8E8",
+          "secondary": "#593636"
+        }
       },
       "property": {
         "images": [],
