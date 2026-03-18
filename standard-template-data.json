@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.6.0",
-    "generatedAt": "2026-03-18T03:28:36.459Z",
+    "version": "1.7.0",
+    "generatedAt": "2026-03-18T03:30:32.593Z",
     "templateType": "full_banner_wipe",
     "propertyId": "62f170ca-cf16-4dd4-8a0d-1f539ce41302",
     "homepageId": "fb1de3e6-511a-473a-bad1-97af6fa64190"
@@ -768,7 +768,7 @@
           "sections": [
             {
               "hero": {
-                "title": "",
+                "title": " ",
                 "images": [
                   {
                     "id": "5fe047b8-fcf3-4593-a78c-423552b2e410",
@@ -777,7 +777,8 @@
                     "description": "",
                     "isSelected": true
                   }
-                ]
+                ],
+                "description": "오션뷰 객실에서 일출과 일몰을 즐기는 감성 숙소\n청결한 침구와 쾌적한 공간으로 편안한 휴식을 제공합니다.\n\n여름에는 바다가 보이는 바베큐장, \n겨울에는 화목난로와 함께 따뜻한 바베큐\n실미도 3분, 하나개해수욕장 8분 거리의 뛰어난 위치\n소형 반려견과 함께 머물 수 있는 펜션입니다 🐶"
               },
               "about": []
             }
