@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.8.0",
-    "generatedAt": "2026-03-18T03:44:59.878Z",
+    "version": "1.9.0",
+    "generatedAt": "2026-03-19T02:07:15.633Z",
     "templateType": "full_banner_wipe",
     "propertyId": "62f170ca-cf16-4dd4-8a0d-1f539ce41302",
     "homepageId": "fb1de3e6-511a-473a-bad1-97af6fa64190"
@@ -752,35 +752,35 @@
                   {
                     "id": "7b6bd8f5-4005-400a-8861-33ffe51e48f7",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_gallery/1773805162226-ekauycxjfnh.jpg",
-                    "sortOrder": 0,
+                    "sortOrder": 1,
                     "description": "오션뷰",
                     "isSelected": true
                   },
                   {
                     "id": "d6548e01-8526-402a-8925-7aedecd1d1dd",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_gallery/1773805162226-6mbzipgbqo9.jpg",
-                    "sortOrder": 1,
+                    "sortOrder": 2,
                     "description": "오션뷰객실",
                     "isSelected": true
                   },
                   {
                     "id": "3d93857e-7e12-4495-84ec-3404f1c481cc",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_gallery/1773805162226-afgy86y9117.jpg",
-                    "sortOrder": 2,
+                    "sortOrder": 3,
                     "description": "공용바베큐장",
                     "isSelected": true
                   },
                   {
                     "id": "4b0c613b-cc42-4949-a264-38b8386402ff",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_gallery/1773805162226-fk00icm831i.jpg",
-                    "sortOrder": 3,
+                    "sortOrder": 4,
                     "description": "만화방",
                     "isSelected": true
                   },
                   {
                     "id": "8ca0bd87-83df-410f-a84d-6a858e5fcd52",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_gallery/1773805252381-3bqfsdhrat6.jpg",
-                    "sortOrder": 4,
+                    "sortOrder": 5,
                     "description": "애견동반",
                     "isSelected": true
                   }
@@ -953,9 +953,6 @@
           ]
         }
       },
-      "popup": {
-        "popups": []
-      },
       "theme": {
         "font": {
           "koSub": {
@@ -981,6 +978,9 @@
           "primary": "#E8E8E8",
           "secondary": "#593636"
         }
+      },
+      "popup": {
+        "popups": []
       },
       "property": {
         "images": [],
@@ -1693,7 +1693,6 @@
           ]
         }
       ]
-    },
-    "id": "fb1de3e6-511a-473a-bad1-97af6fa64190"
+    }
   }
 }
