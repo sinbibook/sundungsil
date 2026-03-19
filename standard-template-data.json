@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "version": "1.9.0",
-    "generatedAt": "2026-03-19T02:07:15.633Z",
-    "templateType": "full_banner_wipe",
+    "version": "1.10.0",
+    "generatedAt": "2026-03-19T02:09:59.093Z",
+    "templateType": "full_banner_slider_rounded_group",
     "propertyId": "62f170ca-cf16-4dd4-8a0d-1f539ce41302",
     "homepageId": "fb1de3e6-511a-473a-bad1-97af6fa64190"
   },
@@ -628,7 +628,7 @@
   ],
   "homepage": {
     "domain": "sundungsil.kr",
-    "templateType": "full_banner_wipe",
+    "templateType": "full_banner_slider_rounded_group",
     "images": [
       {
         "logo": []
