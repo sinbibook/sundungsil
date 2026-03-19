@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.11.0",
-    "generatedAt": "2026-03-19T07:52:55.986Z",
+    "version": "1.12.0",
+    "generatedAt": "2026-03-19T07:55:57.346Z",
     "templateType": "full_banner_slider_rounded_group",
     "propertyId": "62f170ca-cf16-4dd4-8a0d-1f539ce41302",
     "homepageId": "fb1de3e6-511a-473a-bad1-97af6fa64190"
@@ -828,6 +828,13 @@
                     "sortOrder": 0,
                     "description": "",
                     "isSelected": true
+                  },
+                  {
+                    "id": "5cc216c3-ef6a-43bd-b17b-75475c08d358",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/main_hero/1773906939188-d52o4ahk3k6.jpg",
+                    "sortOrder": 1,
+                    "description": "",
+                    "isSelected": true
                   }
                 ],
                 "description": "오션뷰 객실에서 일출과 일몰을 즐기는 감성 숙소\n청결한 침구와 쾌적한 공간으로 편안한 휴식을 제공합니다.\n\n여름에는 바다가 보이는 바베큐장, \n겨울에는 화목난로와 함께 따뜻한 바베큐\n실미도 3분, 하나개해수욕장 8분 거리의 뛰어난 위치\n소형 반려견과 함께 머물 수 있는 펜션입니다 🐶"
@@ -983,7 +990,120 @@
         "popups": []
       },
       "property": {
-        "images": [],
+        "images": [
+          {
+            "id": "472100f1-a069-4ee8-97ba-63ce86dc3835",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/property_thumbnail/1773906939188-9u6s351cpv.jpg",
+            "sortOrder": 0,
+            "description": "",
+            "isSelected": true,
+            "category": "property_thumbnail"
+          },
+          {
+            "id": "44a95587-cf3f-4de6-9453-2c0b66dfff26",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/property_exterior/1773906939189-6m78hypwij.jpg",
+            "sortOrder": 0,
+            "description": "",
+            "isSelected": true,
+            "category": "property_exterior"
+          },
+          {
+            "id": "62a3eb91-060e-46b9-9ae3-bf645516164c",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/property_exterior/1773906939189-l6sk8yqnzr.jpg",
+            "sortOrder": 1,
+            "description": "",
+            "isSelected": true,
+            "category": "property_exterior"
+          },
+          {
+            "id": "952f4830-b7df-4fb1-921b-6235bf265de7",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/property_exterior/1773906939189-zc0wj6zbl.jpg",
+            "sortOrder": 2,
+            "description": "",
+            "isSelected": true,
+            "category": "property_exterior"
+          },
+          {
+            "id": "2f8046cb-d0a1-499f-a980-a2e604586adb",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/property_exterior/1773906939189-jsifc90flx.jpg",
+            "sortOrder": 3,
+            "description": "",
+            "isSelected": true,
+            "category": "property_exterior"
+          },
+          {
+            "id": "2ad7170d-b2ff-46a9-a21f-b3081feb025d",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/property_exterior/1773906939189-bbea5tbdkmj.jpg",
+            "sortOrder": 4,
+            "description": "",
+            "isSelected": true,
+            "category": "property_exterior"
+          },
+          {
+            "id": "7646b577-a7ca-4600-af32-51519d0ab76b",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/property_exterior/1773906939189-og4hzpptqxd.jpg",
+            "sortOrder": 5,
+            "description": "",
+            "isSelected": true,
+            "category": "property_exterior"
+          },
+          {
+            "id": "cedff254-96f5-44e1-b06b-78640d78465c",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/property_exterior/1773906939189-jz4t2gi7dxk.jpg",
+            "sortOrder": 6,
+            "description": "",
+            "isSelected": true,
+            "category": "property_exterior"
+          },
+          {
+            "id": "9d02918f-3efa-4a2a-854d-0a4a14f71ff7",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/property_exterior/1773906939189-9xnh9pgxycg.jpg",
+            "sortOrder": 7,
+            "description": "",
+            "isSelected": true,
+            "category": "property_exterior"
+          },
+          {
+            "id": "d6f2f883-4142-4e95-8946-e519d43bd1c5",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/property_exterior/1773906939189-s89zpzicked.jpg",
+            "sortOrder": 8,
+            "description": "",
+            "isSelected": true,
+            "category": "property_exterior"
+          },
+          {
+            "id": "80e6a432-901a-4294-bba5-d9da4cdfbe4d",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/property_exterior/1773906939189-292i83yl0d6.jpg",
+            "sortOrder": 9,
+            "description": "",
+            "isSelected": true,
+            "category": "property_exterior"
+          },
+          {
+            "id": "22624975-960d-4e85-8bb2-8d588a72db45",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/property_exterior/1773906939189-nc53k1k6thm.jpg",
+            "sortOrder": 10,
+            "description": "",
+            "isSelected": true,
+            "category": "property_exterior"
+          },
+          {
+            "id": "dfb2229d-5746-46f8-b026-f919db3d4419",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/property_exterior/1773906939189-8zvy55rxtzm.jpg",
+            "sortOrder": 11,
+            "description": "",
+            "isSelected": true,
+            "category": "property_exterior"
+          },
+          {
+            "id": "21fbe90f-3c36-4ff0-a5a0-c708d663aa81",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/property_exterior/1773906939189-3vtl2z8th3d.jpg",
+            "sortOrder": 12,
+            "description": "",
+            "isSelected": true,
+            "category": "property_exterior"
+          }
+        ],
         "nameEn": "Haedungsil Pension"
       },
       "roomtypes": [
