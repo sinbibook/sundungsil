@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.15.0",
-    "generatedAt": "2026-03-19T08:50:56.052Z",
+    "version": "1.16.0",
+    "generatedAt": "2026-03-19T09:09:29.278Z",
     "templateType": "full_banner_slider_rounded_group",
     "propertyId": "62f170ca-cf16-4dd4-8a0d-1f539ce41302",
     "homepageId": "fb1de3e6-511a-473a-bad1-97af6fa64190"
@@ -861,7 +861,38 @@
                 ],
                 "description": "오션뷰 객실에서 일출과 일몰을 즐기는 감성 숙소\n청결한 침구와 쾌적한 공간으로 편안한 휴식을 제공합니다.\n\n여름에는 바다가 보이는 바베큐장, \n겨울에는 화목난로와 함께 따뜻한 바베큐\n실미도 3분, 하나개해수욕장 8분 거리의 뛰어난 위치\n소형 반려견과 함께 머물 수 있는 펜션입니다 🐶"
               },
-              "about": []
+              "about": [
+                {
+                  "title": " ",
+                  "images": [
+                    {
+                      "id": "c872e6ff-cb78-4a3c-9200-eaf6148482a7",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/main_about/1773910975105-mlllmttztf.jpg",
+                      "sortOrder": 0,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "fd5c9436-1ba8-4c03-aaee-56f1c770d688"
+                    }
+                  ],
+                  "blockId": "fd5c9436-1ba8-4c03-aaee-56f1c770d688",
+                  "description": "바다가 보이는 객실에서 일출과 일몰을 모두 즐길 수 있는 감성 숙소입니다.\n깨끗한 침구와 쾌적한 공간이 여행의 편안함을 더해줍니다.\n사랑하는 사람, 반려견과 함께 오래 기억될 하루를 만들어보세요."
+                },
+                {
+                  "title": " ",
+                  "images": [
+                    {
+                      "id": "26e68fe3-bdaa-479a-8535-0480be96bedd",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/main_about/1773911081680-c6egwrlu49w.jpg",
+                      "sortOrder": 1,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "1aa1166a-390f-44b3-923c-322668409d9a"
+                    }
+                  ],
+                  "blockId": "1aa1166a-390f-44b3-923c-322668409d9a",
+                  "description": "여름에는 오션뷰 바베큐, 겨울에는 화목난로와 함께하는 따뜻한 바베큐를 즐길 수 있습니다.\n실미도와 하나개해수욕장이 가까워 여행의 즐거움까지 더해줍니다.\n머무는 순간마다 바다의 여유와 감성을 가득 느낄 수 있는 공간입니다."
+                }
+              ]
             }
           ]
         },
@@ -1758,7 +1789,7 @@
             {
               "id": "d811ca72-d3cc-4120-9367-7e9e6c2ce34b",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/roomtype_exterior/1773910248424-xze8cvt9jkl.jpg",
-              "sortOrder": 16,
+              "sortOrder": 14,
               "description": "",
               "isSelected": true,
               "blockId": "54666e34-0736-4199-84d1-cc3b15457f14",
@@ -1862,7 +1893,7 @@
             {
               "id": "041adf2b-3652-46ec-a1e3-539a0dd968b8",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/roomtype_exterior/1773800350778-f1345tu1qbu.jpg",
-              "sortOrder": 14,
+              "sortOrder": 15,
               "description": "",
               "isSelected": true,
               "blockId": "9c0b3965-be19-4213-9cd9-69935cca9092",
@@ -1871,7 +1902,7 @@
             {
               "id": "1fdeb889-5b15-4f2b-bb5a-426572160bf5",
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/roomtype_exterior/1773800350778-treil2kenpm.jpg",
-              "sortOrder": 15,
+              "sortOrder": 16,
               "description": "",
               "isSelected": true,
               "blockId": "9c0b3965-be19-4213-9cd9-69935cca9092",
