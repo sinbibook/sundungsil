@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.24.0",
-    "generatedAt": "2026-03-20T07:07:33.508Z",
+    "version": "1.25.0",
+    "generatedAt": "2026-03-20T08:06:23.485Z",
     "templateType": "full_banner_slider_rounded_group",
     "propertyId": "62f170ca-cf16-4dd4-8a0d-1f539ce41302",
     "homepageId": "fb1de3e6-511a-473a-bad1-97af6fa64190"
@@ -758,45 +758,45 @@
                 "title": " ",
                 "images": [
                   {
-                    "id": "fa66e23b-6670-47dd-a1cb-f3a9dc9c4c2b",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_gallery/1773805162226-t9056bc45ci.jpg",
-                    "sortOrder": 0,
-                    "description": "하나개 해수욕장",
-                    "isSelected": true
-                  },
-                  {
                     "id": "7b6bd8f5-4005-400a-8861-33ffe51e48f7",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_gallery/1773805162226-ekauycxjfnh.jpg",
-                    "sortOrder": 1,
+                    "sortOrder": 0,
                     "description": "오션뷰",
                     "isSelected": true
                   },
                   {
                     "id": "d6548e01-8526-402a-8925-7aedecd1d1dd",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_gallery/1773805162226-6mbzipgbqo9.jpg",
-                    "sortOrder": 2,
+                    "sortOrder": 1,
                     "description": "오션뷰객실",
                     "isSelected": true
                   },
                   {
                     "id": "3d93857e-7e12-4495-84ec-3404f1c481cc",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_gallery/1773805162226-afgy86y9117.jpg",
-                    "sortOrder": 3,
+                    "sortOrder": 2,
                     "description": "공용바베큐장",
                     "isSelected": true
                   },
                   {
                     "id": "4b0c613b-cc42-4949-a264-38b8386402ff",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_gallery/1773805162226-fk00icm831i.jpg",
-                    "sortOrder": 4,
+                    "sortOrder": 3,
                     "description": "만화방",
                     "isSelected": true
                   },
                   {
                     "id": "8ca0bd87-83df-410f-a84d-6a858e5fcd52",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_gallery/1773805252381-3bqfsdhrat6.jpg",
-                    "sortOrder": 5,
+                    "sortOrder": 4,
                     "description": "애견동반",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "9c04e709-08ec-413a-9c93-a6157555621d",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_gallery/1773991164544-pdmkby94f2.jpg",
+                    "sortOrder": 5,
+                    "description": "하나개 해수욕장",
                     "isSelected": true
                   }
                 ],
@@ -1050,10 +1050,10 @@
             "family": "Pretendard"
           },
           "enMain": {
-            "cdn": "https://fonts.cdnfonts.com/css/gloock-2",
-            "key": "gloock",
+            "cdn": "https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap",
+            "key": "cormorant",
             "woff2": null,
-            "family": "Gloock"
+            "family": "Cormorant"
           },
           "koMain": {
             "cdn": "https://fonts.cdnfonts.com/css/noto-serif-kr",
