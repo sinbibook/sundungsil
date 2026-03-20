@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.16.0",
-    "generatedAt": "2026-03-19T09:09:29.278Z",
+    "version": "1.17.0",
+    "generatedAt": "2026-03-20T06:08:01.825Z",
     "templateType": "full_banner_slider_rounded_group",
     "propertyId": "62f170ca-cf16-4dd4-8a0d-1f539ce41302",
     "homepageId": "fb1de3e6-511a-473a-bad1-97af6fa64190"
@@ -657,15 +657,15 @@
                 "title": "무의도 해둥실 펜션",
                 "images": [
                   {
-                    "id": "2b281039-8aa6-4e1c-85f3-88e0d7fa9da0",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_hero/1773802519786-tg9t7sm3dm.jpg",
+                    "id": "6408668d-4f15-4f76-9c0c-a3e222ba1006",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_hero/1773986813715-1owep170hhkh.jpg",
                     "sortOrder": 0,
                     "description": "",
                     "isSelected": true
                   },
                   {
-                    "id": "5f21beb1-79d6-488e-a86b-9d3f28ece23a",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_hero/1773802519786-b4d3s5x96kf.jpg",
+                    "id": "2b281039-8aa6-4e1c-85f3-88e0d7fa9da0",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_hero/1773802519786-tg9t7sm3dm.jpg",
                     "sortOrder": 1,
                     "description": "",
                     "isSelected": true
@@ -702,6 +702,13 @@
                     "id": "b4d74566-03fc-412e-af3a-6ed9882105c2",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_hero/1773802519786-hmjw19kppyc.jpg",
                     "sortOrder": 6,
+                    "description": "",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "5fca3c6c-ff3e-46f2-9bf0-1e99ae79f101",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/fb1de3e6-511a-473a-bad1-97af6fa64190/index_hero/1773986813716-40p8qjdsqsn.jpg",
+                    "sortOrder": 7,
                     "description": "",
                     "isSelected": true
                   }
