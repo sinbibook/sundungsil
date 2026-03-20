@@ -35,17 +35,16 @@ class MainMapper extends BaseDataMapper {
         // main 페이지의 hero 데이터 가져오기
         const mainHeroData = this.safeGet(this.data, 'homepage.customFields.pages.main.sections.0.hero');
 
-        // data-main-title 매핑 (about 섹션 제목)
+        // data-main-title 매핑 (hero 섹션 제목)
         const mainTitleElement = this.safeSelect('[data-main-title]');
-        const aboutSections = this.safeGet(this.data, 'homepage.customFields.pages.main.sections.0.about');
-        if (mainTitleElement && aboutSections && Array.isArray(aboutSections) && aboutSections[0]) {
-            mainTitleElement.textContent = aboutSections[0].title || '';
+        if (mainTitleElement && mainHeroData && mainHeroData.title !== undefined) {
+            mainTitleElement.textContent = mainHeroData.title;
         }
 
-        // data-main-description 매핑 (about 섹션 설명)
+        // data-main-description 매핑 (hero 섹션 설명)
         const mainDescriptionElement = this.safeSelect('[data-main-description]');
-        if (mainDescriptionElement && aboutSections && Array.isArray(aboutSections) && aboutSections[0]) {
-            mainDescriptionElement.innerHTML = (aboutSections[0].description || '').replace(/\n/g, '<br>');
+        if (mainDescriptionElement && mainHeroData && mainHeroData.description !== undefined) {
+            mainDescriptionElement.innerHTML = (mainHeroData.description || '').replace(/\n/g, '<br>');
         }
 
         // 펜션 이름 매핑 - main 페이지의 hero.title 사용
