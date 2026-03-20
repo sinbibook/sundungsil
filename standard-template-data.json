@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.20.0",
-    "generatedAt": "2026-03-20T06:22:55.436Z",
+    "version": "1.21.0",
+    "generatedAt": "2026-03-20T06:43:39.401Z",
     "templateType": "full_banner_slider_rounded_group",
     "propertyId": "62f170ca-cf16-4dd4-8a0d-1f539ce41302",
     "homepageId": "fb1de3e6-511a-473a-bad1-97af6fa64190"
@@ -839,8 +839,8 @@
                 ]
               },
               "notice": {
-                "title": " ",
-                "description": " "
+                "title": " 대중교통 이용방법",
+                "description": " 🚆 공항철도 인천공항1터미널역 하차\n🚌 3층 7번 출구에서 222번 또는 무의1번 버스 탑승\n📍 큰무리선착장 하차 후 도보 약 1분"
               }
             }
           ]
