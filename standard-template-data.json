@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.25.0",
-    "generatedAt": "2026-03-20T08:06:23.485Z",
+    "version": "1.26.0",
+    "generatedAt": "2026-03-23T00:09:22.883Z",
     "templateType": "full_banner_slider_rounded_group",
     "propertyId": "62f170ca-cf16-4dd4-8a0d-1f539ce41302",
     "homepageId": "fb1de3e6-511a-473a-bad1-97af6fa64190"
@@ -14,7 +14,7 @@
     "address": "인천광역시 중구 큰무리로 36",
     "latitude": 37.4034424346363,
     "longitude": 126.409945124985,
-    "contactPhone": "010-4039-3438",
+    "contactPhone": "010-7150-1246",
     "contactEmail": "leehsuk6114@naver.com",
     "checkin": "15:00",
     "checkout": "11:00",
@@ -155,7 +155,7 @@
         "id": "b61752e5-e036-499f-8cd0-a6d2261ce7bc",
         "name": "무인 매점",
         "description": "펜션 내 무인 매점을 편리하게 이용할 수 있습니다. ",
-        "usageGuide": "[무인매점]\n- 펜션 1층 무인 매점에서 라면, 주류 등 판매",
+        "usageGuide": "[무인매점]\n- 펜션 2층 사무실 바로 앞 무인매점에서 라면, 주류 등 판매 ",
         "displayOrder": 2,
         "images": [
           {
