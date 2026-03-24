@@ -380,201 +380,127 @@
         return window.innerWidth <= 768;
     }
 
-    // Gallery Slider - 모바일 버전 (Active 이미지만 90% 너비로 표시)
-    function initGallerySliderMobile() {
+    // Gallery Slider - 3세트 복제 + 인덱스 점프 무한 루프
+    function initGallerySlider() {
         const wrapper = document.querySelector('.gallery-slider-wrapper');
         const track = document.querySelector('.gallery-slider-track');
-        let slides = document.querySelectorAll('.gallery-slide');
 
-        if (!track || slides.length === 0) return;
+        if (!track || track.children.length === 0) return;
 
-        const originalSlideCount = slides.length / 2;
+        const isMobile = isMobileDevice();
         const gap = 40;
-        let currentIndex = 0;
-        let autoSlideTimer = null;
-        const autoSlideInterval = 4000;
+        const duration = 600;
+        const autoInterval = 3000;
+        const originalCount = parseInt(track.dataset.originalCount, 10) || 5;
 
-        function updatePosition(animate = true) {
-            slides = document.querySelectorAll('.gallery-slide');
-            const wrapperWidth = wrapper.offsetWidth;
-            const slideWidth = wrapperWidth * 0.9; // 모바일: 90% 너비로 계산
+        let currentIndex = originalCount; // 2번째 세트 첫 슬라이드부터 시작
+        let timer = null;
+        let busy = false;
 
-            if (animate) {
-                track.style.transition = 'transform 0.6s ease';
-            } else {
-                track.style.transition = 'none';
+        // 기본 슬라이드 너비 (active가 아닌 일반 슬라이드)
+        function baseWidth() {
+            return isMobile ? wrapper.offsetWidth * 0.9 : 300;
+        }
+
+        // active 슬라이드 너비
+        function activeWidth() {
+            return isMobile ? wrapper.offsetWidth * 0.9 : 480;
+        }
+
+        // 한 칸 이동 거리 (일반 슬라이드 기준, flex 레이아웃에서 일정)
+        function stepSize() {
+            return baseWidth() + gap;
+        }
+
+        // 특정 index를 중앙에 배치하는 translateX 계산
+        // active의 왼쪽 가장자리 = index * stepSize() (앞의 슬라이드는 전부 baseWidth)
+        // active의 중앙 = index * stepSize() + activeWidth() / 2
+        function getTranslateX(index) {
+            var center = wrapper.offsetWidth / 2;
+            return center - (index * stepSize() + activeWidth() / 2);
+        }
+
+        // active 클래스 업데이트
+        function updateActive(index) {
+            var slides = track.children;
+            for (var i = 0; i < slides.length; i++) {
+                slides[i].classList.toggle('active', i === index);
             }
+        }
 
-            // 모바일: padding 없음 (CSS에서 처리)
-            track.style.paddingLeft = '0';
-            track.style.paddingRight = '0';
-            track.style.transform = `translateX(${-(currentIndex * (slideWidth + gap))}px)`;
+        // track 위치 적용
+        function applyPosition(animate) {
+            var tx = getTranslateX(currentIndex);
+            track.style.transition = animate ? 'transform ' + duration + 'ms ease' : 'none';
+            track.style.transform = 'translateX(' + tx + 'px)';
+        }
 
-            // Active 상태 업데이트 (CSS에서 opacity 처리)
-            slides.forEach((slide, index) => {
-                slide.classList.remove('active');
-                const originalIndex = index % originalSlideCount;
-                const currentIndexModulo = currentIndex % originalSlideCount;
-                if (originalIndex === currentIndexModulo) {
-                    slide.classList.add('active');
-                }
-            });
+        // 모든 슬라이드의 CSS transition 비활성화 (점프 시 width 변화 숨기기)
+        function freezeSlides() {
+            var slides = track.children;
+            for (var i = 0; i < slides.length; i++) {
+                slides[i].style.transition = 'none';
+            }
+        }
 
-            const slideToActivate = slides[currentIndex];
-            if (slideToActivate) {
-                slideToActivate.classList.add('active');
+        // 슬라이드 transition 복원 (CSS 기본값으로)
+        function unfreezeSlides() {
+            var slides = track.children;
+            for (var i = 0; i < slides.length; i++) {
+                slides[i].style.transition = '';
+            }
+        }
+
+        // 세트 경계를 넘었으면 가운데 세트로 순간이동
+        function wrapIfNeeded() {
+            if (currentIndex >= originalCount * 2) {
+                // 1) 슬라이드 transition 끄기 (width 480→300, 300→480 변화를 숨김)
+                freezeSlides();
+                // 2) 인덱스를 한 세트분 앞으로 이동
+                currentIndex -= originalCount;
+                // 3) active 클래스 즉시 이동
+                updateActive(currentIndex);
+                // 4) track 위치 즉시 이동 (translateX 차이 = originalCount * stepSize, 항상 일정)
+                applyPosition(false);
+                // 5) 브라우저에게 변경사항 즉시 반영 강제
+                void track.offsetHeight;
+                // 6) 다음 프레임에서 슬라이드 transition 복원
+                requestAnimationFrame(function() {
+                    unfreezeSlides();
+                });
             }
         }
 
         function nextSlide() {
-            currentIndex++;
-            if (currentIndex >= originalSlideCount * 2) {
-                track.style.transition = 'none';
-                currentIndex = originalSlideCount;
-                updatePosition(false);
-
-                setTimeout(() => {
-                    track.style.transition = 'transform 0.6s ease';
-                }, 50);
-            } else {
-                updatePosition(true);
-            }
-        }
-
-        function startAutoSlide() {
-            if (autoSlideTimer) clearInterval(autoSlideTimer);
-            autoSlideTimer = setInterval(nextSlide, autoSlideInterval);
-        }
-
-        function stopAutoSlide() {
-            if (autoSlideTimer) {
-                clearInterval(autoSlideTimer);
-                autoSlideTimer = null;
-            }
-        }
-
-        updatePosition(false);
-        startAutoSlide();
-
-        wrapper.addEventListener('mouseenter', stopAutoSlide);
-        wrapper.addEventListener('mouseleave', startAutoSlide);
-    }
-
-    // Gallery Slider - 데스크탑 버전 (무한 갤러리, 항상 5개 보임)
-    function initGallerySliderDesktop() {
-        const wrapper = document.querySelector('.gallery-slider-wrapper');
-        const track = document.querySelector('.gallery-slider-track');
-        let slides = document.querySelectorAll('.gallery-slide');
-
-        if (!track || slides.length === 0) return;
-
-        const originalSlideCount = slides.length / 2;
-        const slideWidth = 300;
-        const activeSlideWidth = 480;
-        const gap = 40;
-        let currentIndex = 2;
-        let autoSlideTimer = null;
-        const autoSlideInterval = 4000;
-        let isTransitioning = false;
-
-        // 슬라이드 위치 계산
-        function calculatePosition(index) {
-            const wrapperWidth = wrapper.offsetWidth;
-            let totalWidth = 0;
-            for (let i = 0; i < index; i++) {
-                totalWidth += slideWidth + gap;
-            }
-
-            const sidePadding = (wrapperWidth - activeSlideWidth) / 2;
-            return -(totalWidth - sidePadding);
-        }
-
-        // 슬라이드 위치 업데이트
-        function updatePosition(animate = true) {
-            slides = document.querySelectorAll('.gallery-slide');
-            const wrapperWidth = wrapper.offsetWidth;
-            const position = calculatePosition(currentIndex);
-            const sidePadding = (wrapperWidth - activeSlideWidth) / 2;
-
-            if (animate) {
-                track.style.transition = 'transform 0.6s ease';
-                isTransitioning = true;
-            } else {
-                track.style.transition = 'none';
-            }
-
-            // 데스크탑: padding은 필요 없음 (position 계산으로 처리)
-            track.style.paddingLeft = '0';
-            track.style.paddingRight = '0';
-            track.style.transform = `translateX(${position}px)`;
-
-            // Active 상태 업데이트
-            slides.forEach((slide, index) => {
-                slide.classList.remove('active');
-                const originalIndex = index % originalSlideCount;
-                const currentIndexModulo = currentIndex % originalSlideCount;
-                slide.style.opacity = (originalIndex === currentIndexModulo) ? '1' : '0.4';
-            });
-
-            const slideToActivate = slides[currentIndex];
-            if (slideToActivate) {
-                slideToActivate.classList.add('active');
-            }
-
-            if (animate) {
-                setTimeout(() => {
-                    isTransitioning = false;
-                }, 600);
-            }
-        }
-
-        // 다음 슬라이드로 이동
-        function nextSlide() {
-            if (isTransitioning) return;
+            if (busy) return;
+            busy = true;
 
             currentIndex++;
+            updateActive(currentIndex);
+            applyPosition(true);
 
-            if (currentIndex >= originalSlideCount * 2) {
-                track.style.transition = 'none';
-                currentIndex = originalSlideCount;
-                updatePosition(false);
-
-                setTimeout(() => {
-                    track.style.transition = 'transform 0.6s ease';
-                }, 50);
-            } else {
-                updatePosition(true);
-            }
+            setTimeout(function() {
+                busy = false;
+                wrapIfNeeded();
+            }, duration + 50);
         }
 
-        function startAutoSlide() {
-            if (autoSlideTimer) clearInterval(autoSlideTimer);
-            autoSlideTimer = setInterval(nextSlide, autoSlideInterval);
+        function start() {
+            if (timer) clearInterval(timer);
+            timer = setInterval(nextSlide, autoInterval);
         }
 
-        function stopAutoSlide() {
-            if (autoSlideTimer) {
-                clearInterval(autoSlideTimer);
-                autoSlideTimer = null;
-            }
+        function stop() {
+            if (timer) { clearInterval(timer); timer = null; }
         }
 
         // 초기화
-        updatePosition(false);
-        startAutoSlide();
+        updateActive(currentIndex);
+        applyPosition(false);
+        requestAnimationFrame(function() { start(); });
 
-        // Pause on hover
-        wrapper.addEventListener('mouseenter', stopAutoSlide);
-        wrapper.addEventListener('mouseleave', startAutoSlide);
-    }
-
-    // 갤러리 슬라이더 초기화 (모바일/데스크탑 분리)
-    function initGallerySlider() {
-        if (isMobileDevice()) {
-            initGallerySliderMobile();
-        } else {
-            initGallerySliderDesktop();
-        }
+        wrapper.addEventListener('mouseenter', stop);
+        wrapper.addEventListener('mouseleave', start);
     }
 
 

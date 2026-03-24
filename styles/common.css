@@ -650,8 +650,8 @@ img {
 @media (max-width: 768px) {
     /* Hero Section Mobile */
     .hero-section {
-        height: 85vh;
-        min-height: 85vh;
+        height: 60vh;
+        min-height: 60vh;
         overflow: hidden;
         clip-path: ellipse(150% 100% at 50% 0%);
     }
@@ -958,19 +958,21 @@ body {
         letter-spacing: 0.1em;
     }
 
-    .mobile-floating-ybs-btn {
+    .mobile-floating-book-btn {
         bottom: 65px;
         right: 15px;
         padding: 8px 22px;
     }
 
-    .mobile-floating-book-btn {
+    .mobile-floating-ybs-btn {
         bottom: 15px;
         right: 15px;
     }
 
     .mobile-floating-book-btn::after {
-        content: 'BOOK';
+        content: '예약';
+        font-family: 'Noto Serif KR', serif;
+        font-size: 0.85rem;
     }
 
     .mobile-floating-ybs-btn::after {
