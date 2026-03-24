@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.26.0",
-    "generatedAt": "2026-03-23T00:09:22.883Z",
+    "version": "1.27.0",
+    "generatedAt": "2026-03-24T04:01:40.806Z",
     "templateType": "full_banner_slider_rounded_group",
     "propertyId": "62f170ca-cf16-4dd4-8a0d-1f539ce41302",
     "homepageId": "fb1de3e6-511a-473a-bad1-97af6fa64190"
@@ -312,8 +312,108 @@
     },
     "images": [
       {
-        "thumbnail": [],
-        "exterior": [],
+        "thumbnail": [
+          {
+            "id": "3218bdbb-f01d-420e-9bea-930518e0f587",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/thumbnail/1774229726186-8qak5qyq4nc.jpg",
+            "sortOrder": 0,
+            "description": "",
+            "isSelected": true
+          }
+        ],
+        "exterior": [
+          {
+            "id": "fbbfe556-fcec-47c0-ae6a-d68e3c263103",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726187-lgq1zdtmjna.jpg",
+            "sortOrder": 12,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "16b8397f-a95b-467f-b865-1779c4974b91",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726187-kb4obz3zei.jpg",
+            "sortOrder": 11,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "0d92f74e-b3c9-452e-a4ff-3a51fef7a5c5",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726187-bmc55gswyu5.jpg",
+            "sortOrder": 10,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "70f51cc8-f8d2-4d9c-9da7-0d811123d3bd",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726186-c758s3aoysj.jpg",
+            "sortOrder": 2,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "3cb6e6f6-07b9-485b-a270-a9f46dc9273f",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726187-r43ruxco0n.jpg",
+            "sortOrder": 8,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "d65ab879-f9ab-468d-a35b-9bf75855e88b",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726186-dzzhr8khha9.jpg",
+            "sortOrder": 5,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "fc9b6f7f-bba2-45c9-bdee-d53c13d0f38b",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726186-nai4idutu8.jpg",
+            "sortOrder": 6,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "c3b2c76b-bfff-4168-9a20-a98d0e6fd1ea",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726186-13hdnsh33oz.jpg",
+            "sortOrder": 1,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "bef32d87-500c-4ee1-9ceb-1595f5e142a0",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726187-upzboo9btir.jpg",
+            "sortOrder": 9,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "a88ec56b-b124-4cde-a008-135c2d9ca2d4",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726187-6gz2iy4vv1e.jpg",
+            "sortOrder": 7,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "6015a660-0c68-473d-84b0-837e0651dd76",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726186-0xpbpqimpfu.jpg",
+            "sortOrder": 1,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "a1682958-f075-4664-804f-93e4ec518494",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726186-sgo3wqmeswe.jpg",
+            "sortOrder": 3,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "bd87c43e-396c-4706-b39c-4ab0e6c39906",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726186-znbjxy2iubg.jpg",
+            "sortOrder": 4,
+            "description": "",
+            "isSelected": true
+          }
+        ],
         "surrounding": [],
         "commonArea": []
       }
@@ -321,7 +421,7 @@
     "nameEn": "Muuido Haedungsil Pension",
     "domain": "sundungsil.kr",
     "realtimeBookingId": "https://www.bookingplay.co.kr/booking/1/11378",
-    "ybsId": ""
+    "ybsId": "62292"
   },
   "rooms": [
     {
