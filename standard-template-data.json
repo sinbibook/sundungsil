@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.26.0",
-    "generatedAt": "2026-03-23T00:09:22.883Z",
+    "version": "1.27.0",
+    "generatedAt": "2026-03-24T05:33:06.918Z",
     "templateType": "full_banner_slider_rounded_group",
     "propertyId": "62f170ca-cf16-4dd4-8a0d-1f539ce41302",
     "homepageId": "fb1de3e6-511a-473a-bad1-97af6fa64190"
@@ -19,7 +19,7 @@
     "checkin": "15:00",
     "checkout": "11:00",
     "checkInOutInfo": "[입/퇴실 안내]\n- 입실 시간 15:00 / 퇴실 시간 11:00\n※ 22시 이후 입실 시 펜션에 사전 문의 부탁드립니다.",
-    "usageGuide": "[펜션 이용 안내 사항]\n- 펜션 예약고객님 이외 외부인 출입은 금지되어 있습니다.\n- 생수는 따로 제공하지 않습니다.\n- 객실 내에서는 흡연금지이며, 지정된 장소에서만 가능합니다.\n- 객실 내 전기밥솥 및 커피포트가 없습니다. 필요한 고객님은 펜션지기에게 입실 후 말씀부탁드려요.\n- 객실 내 생선 및 고기류 조리 불가능합니다.\n- 객실 화재 및 손상 위험으로 인해 파티에 사용되는 촛불 및 풍선 사용이 금지되어 있습니다. (벽지 및 객실 손상 시 보수 비용이 청구될 수 있습니다.)\n- 퇴실하실때 객실 정리 및 소등 부탁드리며 분리수거 부탁드립니다.\n- 분리수거장 위치는 엘리베이터를 타고 1층에 바로 있습니다.\n- 화재 위험으로 인해 외부에서 가져오시는 개인 그릴 장비는 펜션 내 반입이 어렵습니다.\n\n[인원추가비(1박기준/현장결제)]\n- 기준인원 초과시 1인당 15,000원, 24개월 미만 영유아 10,000원\n※ 영유아 기준인원 포함 / 최대인원 초과불가\n※ 현장결제\n\n[야외 바베큐]\n- 개별바베큐 : 단체룸\n- 공용바베큐 : 전 객실 가능\n- 숯+그릴 대여 : 기본 2인 20,000원 (1인 추가 5,000원)\n- 이용시간 : 동계 17:30~22:00, 하계 18:00~22:00\n※ 외부 숯 반입 금지\n※ 현장 결제\n\n[애견동반]\n※ 애견동반을 원할 경우 사전 문의 및 상담 필수\n- 입실가능 객실 : 전 객실\n- 펫티켓 준수 조건 1마리당 10,000원 추가(10kg 미만, 소형견)\n- 최대 2마리 동반입실 가능\n※ 현장 결제\n\n[반려견 동반시 유의사항]\n- 해둥실펜션은 애견전용펜션이 아닌 애견이 '출입가능한' 펜션입니다. \n- 애완용품은 별도로 준비해주셔야 합니다.\n- 배변 훈련이 되어있어야 하며, 마킹(영역표시) 및 생리하는 아이들은 실내에서 매너벨트 필수 착용해주세요.\n(매너벨트 미착용으로 객실 가구 또는 소품에 마킹 시 청소 비용이 발생되오니 이점 반드시 참고해주세요!)\n- 반려견 없이 지내시는 분들이 계시기 때문에 다른 객실 손님에게 피해가 가지 않도록 케어 잘 해주셔야 하며 털이 많이 날리는 아이의 경우 특별히 관리 부탁드립니다\n- 외출은 반드시 반려견과 함께 해주셔야 합니다.\n\n[무인매점]\n- 펜션 1층 무인 매점에서 라면, 주류 등 판매\n\n[만화방]\n- 펜션 공용 공간에 만화책 구비\n\n[편의시설]\n- 무료 Wi-Fi\n- 무인 편의점\n- 상비약\n- 엘리베이터\n- 짐보관 가능\n\n[주차장]\n- 주차장 보유\n\n[자가용이용시]\n네비주소 : 구주소) 인천시 중구 무의동 414 해둥실펜션\n신주소) 인천시 중구 큰무리로 36 해둥실펜션\n\n[대중교통 이용시]\n1.인천국제공항 1여객터미널 3층 7번게이트 앞 111번 버스 승차 후 무의도입구 하차 후 무의1(마을버스)타고 실미삼거리 하차 도보 5분거리\n2.인천국제공항 1여객터미널 3층 7번게이트 앞 111번 버스 승차 후 큰무리선착장 하차 후 도보 12분 거리\n\n[주변관광지]\n- 실미도 차량 3분\n- 하나개해수욕장 차량 8분",
+    "usageGuide": "[펜션 이용 안내 사항]\n- 펜션 예약고객님 이외 외부인 출입은 금지되어 있습니다.\n- 생수는 따로 제공하지 않습니다.\n- 객실 내에서는 흡연금지이며, 지정된 장소에서만 가능합니다.\n- 객실 내 전기밥솥 및 커피포트가 없습니다. 필요한 고객님은 펜션지기에게 입실 후 말씀부탁드려요.\n- 객실 내 생선 및 고기류 조리 불가능합니다.\n- 객실 화재 및 손상 위험으로 인해 파티에 사용되는 촛불 및 풍선 사용이 금지되어 있습니다. (벽지 및 객실 손상 시 보수 비용이 청구될 수 있습니다.)\n- 퇴실하실때 객실 정리 및 소등 부탁드리며 분리수거 부탁드립니다.\n- 분리수거장 위치는 엘리베이터를 타고 1층에 바로 있습니다.\n- 화재 위험으로 인해 외부에서 가져오시는 개인 그릴 장비는 펜션 내 반입이 어렵습니다.\n\n[인원추가비(1박기준/현장결제)]\n- 기준인원 초과시 1인당 15,000원, 24개월 미만 영유아 10,000원\n※ 영유아 기준인원 포함 / 최대인원 초과불가\n※ 현장결제\n\n[야외 바베큐]\n- 개별바베큐 : 단체룸\n- 공용바베큐 : 전 객실 가능\n- 숯+그릴 대여 : 기본 2인 20,000원 (1인 추가 5,000원)\n- 이용시간 : 동계 17:30~22:00, 하계 18:00~22:00\n※ 외부 숯 반입 금지\n※ 현장 결제\n\n[애견동반]\n※ 애견동반을 원할 경우 사전 문의 및 상담 필수\n- 입실가능 객실 : 전 객실\n- 펫티켓 준수 조건 1마리당 10,000원 추가(10kg 미만, 소형견)\n- 최대 2마리 동반입실 가능\n※ 현장 결제\n\n[반려견 동반시 유의사항]\n- 해둥실펜션은 애견전용펜션이 아닌 애견이 '출입가능한' 펜션입니다. \n- 애완용품은 별도로 준비해주셔야 합니다.\n- 배변 훈련이 되어있어야 하며, 마킹(영역표시) 및 생리하는 아이들은 실내에서 매너벨트 필수 착용해주세요.\n(매너벨트 미착용으로 객실 가구 또는 소품에 마킹 시 청소 비용이 발생되오니 이점 반드시 참고해주세요!)\n- 반려견 없이 지내시는 분들이 계시기 때문에 다른 객실 손님에게 피해가 가지 않도록 케어 잘 해주셔야 하며 털이 많이 날리는 아이의 경우 특별히 관리 부탁드립니다\n- 외출은 반드시 반려견과 함께 해주셔야 합니다.\n\n[무인매점]\n- 펜션 2층 사무실 바로 앞 무인매점에서 라면, 주류 등 판매 \n\n[만화방]\n- 펜션 공용 공간에 만화책 구비\n\n[편의시설]\n- 무료 Wi-Fi\n- 무인 편의점\n- 상비약\n- 엘리베이터\n- 짐보관 가능\n\n[주차장]\n- 주차장 보유\n\n[자가용이용시]\n네비주소 : 구주소) 인천시 중구 무의동 414 해둥실펜션\n신주소) 인천시 중구 큰무리로 36 해둥실펜션\n\n[대중교통 이용시]\n1.인천국제공항 1여객터미널 3층 7번게이트 앞 111번 버스 승차 후 무의도입구 하차 후 무의1(마을버스)타고 실미삼거리 하차 도보 5분거리\n2.인천국제공항 1여객터미널 3층 7번게이트 앞 111번 버스 승차 후 큰무리선착장 하차 후 도보 12분 거리\n\n[주변관광지]\n- 실미도 차량 3분\n- 하나개해수욕장 차량 8분",
     "reservationGuide": "미성년자는 보호자 없이 예약 및 입실 불가하며, 위반 시 환불 없이 퇴실됩니다.\n객실 요금은 기준 인원 기준이며, 초과 시 추가 요금이 발생합니다.\n최대 인원 초과 시 입실 불가하며, 이로 인한 환불은 불가입니다. (유아, 어린이 포함)\n현장 추가 요금은 숙소 측에 사전 확인 바랍니다.\n수영장 등 부대시설은 날씨나 상황에 따라 이용이 제한될 수 있으니 사전 확인 바랍니다.\n당일 예약 후 취소 시 환불 불가하며, 늦은 시간 당일 예약 후 즉시 방문 시 입실 불가할 수 있으니 숙소 확인 후 예약해 주세요.\n취소 수수료는 구매처마다 다를 수 있습니다.\n시스템 오류로 인해 정상가와 다른 금액으로 예약이 진행된 경우, 부득이하게 예약이 취소될 수 있습니다.\n전 객실 금연이며, 흡연은 지정된 장소에서만 가능합니다.",
     "province": "인천광역시",
     "city": "중구",
@@ -312,8 +312,108 @@
     },
     "images": [
       {
-        "thumbnail": [],
-        "exterior": [],
+        "thumbnail": [
+          {
+            "id": "3218bdbb-f01d-420e-9bea-930518e0f587",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/thumbnail/1774229726186-8qak5qyq4nc.jpg",
+            "sortOrder": 0,
+            "description": "",
+            "isSelected": true
+          }
+        ],
+        "exterior": [
+          {
+            "id": "fbbfe556-fcec-47c0-ae6a-d68e3c263103",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726187-lgq1zdtmjna.jpg",
+            "sortOrder": 12,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "16b8397f-a95b-467f-b865-1779c4974b91",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726187-kb4obz3zei.jpg",
+            "sortOrder": 11,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "0d92f74e-b3c9-452e-a4ff-3a51fef7a5c5",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726187-bmc55gswyu5.jpg",
+            "sortOrder": 10,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "70f51cc8-f8d2-4d9c-9da7-0d811123d3bd",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726186-c758s3aoysj.jpg",
+            "sortOrder": 2,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "3cb6e6f6-07b9-485b-a270-a9f46dc9273f",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726187-r43ruxco0n.jpg",
+            "sortOrder": 8,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "d65ab879-f9ab-468d-a35b-9bf75855e88b",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726186-dzzhr8khha9.jpg",
+            "sortOrder": 5,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "fc9b6f7f-bba2-45c9-bdee-d53c13d0f38b",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726186-nai4idutu8.jpg",
+            "sortOrder": 6,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "c3b2c76b-bfff-4168-9a20-a98d0e6fd1ea",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726186-13hdnsh33oz.jpg",
+            "sortOrder": 1,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "bef32d87-500c-4ee1-9ceb-1595f5e142a0",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726187-upzboo9btir.jpg",
+            "sortOrder": 9,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "a88ec56b-b124-4cde-a008-135c2d9ca2d4",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726187-6gz2iy4vv1e.jpg",
+            "sortOrder": 7,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "6015a660-0c68-473d-84b0-837e0651dd76",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726186-0xpbpqimpfu.jpg",
+            "sortOrder": 1,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "a1682958-f075-4664-804f-93e4ec518494",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726186-sgo3wqmeswe.jpg",
+            "sortOrder": 3,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "id": "bd87c43e-396c-4706-b39c-4ab0e6c39906",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/62f170ca-cf16-4dd4-8a0d-1f539ce41302/exterior/1774229726186-znbjxy2iubg.jpg",
+            "sortOrder": 4,
+            "description": "",
+            "isSelected": true
+          }
+        ],
         "surrounding": [],
         "commonArea": []
       }
@@ -321,7 +421,7 @@
     "nameEn": "Muuido Haedungsil Pension",
     "domain": "sundungsil.kr",
     "realtimeBookingId": "https://www.bookingplay.co.kr/booking/1/11378",
-    "ybsId": ""
+    "ybsId": "62292"
   },
   "rooms": [
     {
