@@ -307,10 +307,6 @@ class IndexMapper extends BaseDataMapper {
             ? galleryData.images.filter(img => img.isSelected).sort((a, b) => a.sortOrder - b.sortOrder)
             : [];
 
-        // Create gallery slider track
-        const galleryTrack = document.createElement('div');
-        galleryTrack.className = 'gallery-slider-track';
-
         // Placeholder 슬라이드 생성 함수
         const createPlaceholderSlide = () => {
             const slide = document.createElement('div');
@@ -328,55 +324,43 @@ class IndexMapper extends BaseDataMapper {
             return slide;
         };
 
-        // 실제 이미지 슬라이드들 저장
-        const slides = [];
-
-        // 실제 이미지 슬라이드들 추가
-        selectedImages.forEach(img => {
-            const description = img.description || '갤러리 섹션 설명';
+        // 슬라이드 HTML 조각 생성 함수
+        const createSlideHTML = (imgData) => {
+            const description = imgData.description || '갤러리 섹션 설명';
             const slide = document.createElement('div');
             slide.className = 'gallery-slide';
             slide.innerHTML = `
-                <img src="${img.url}" alt="${description}" loading="lazy">
+                <img src="${imgData.url}" alt="${description}" loading="lazy">
                 <div class="gallery-caption">
                     <h4>${description}</h4>
                 </div>
             `;
-            galleryTrack.appendChild(slide);
-            slides.push({ type: 'image', data: img, element: slide });
+            return slide;
+        };
+
+        // 원본 슬라이드 목록 구성
+        const slideCreators = [];
+        selectedImages.forEach(img => {
+            slideCreators.push(() => createSlideHTML(img));
         });
 
         // 5개 미만이면 placeholder로 채우기
         if (selectedImages.length < 5) {
             const placeholderCount = 5 - selectedImages.length;
             for (let i = 0; i < placeholderCount; i++) {
-                const placeholderSlide = createPlaceholderSlide();
-                galleryTrack.appendChild(placeholderSlide);
-                slides.push({ type: 'placeholder', element: placeholderSlide });
+                slideCreators.push(() => createPlaceholderSlide());
             }
         }
 
-        // 무한 루프를 위해 슬라이드 복제 추가 (원본 다음에 다시 한번 추가)
-        slides.forEach(slideData => {
-            let clonedElement;
-            if (slideData.type === 'image') {
-                const img = slideData.data;
-                const description = img.description || '갤러리 섹션 설명';
-                clonedElement = document.createElement('div');
-                clonedElement.className = 'gallery-slide';
-                clonedElement.innerHTML = `
-                    <img src="${img.url}" alt="${description}" loading="lazy">
-                    <div class="gallery-caption">
-                        <h4>${description}</h4>
-                    </div>
-                `;
-            } else {
-                clonedElement = createPlaceholderSlide();
-            }
-            galleryTrack.appendChild(clonedElement);
-        });
+        // 원본 개수를 data 속성으로 저장 (JS에서 사용)
+        imagesWrapper.dataset.originalCount = slideCreators.length;
 
-        imagesWrapper.appendChild(galleryTrack);
+        // 3세트 생성 (무한 루프용: 앞 1세트 + 원본 1세트 + 뒤 1세트)
+        for (let set = 0; set < 3; set++) {
+            slideCreators.forEach(creator => {
+                imagesWrapper.appendChild(creator());
+            });
+        }
 
         // Initialize gallery slider
         if (typeof initGallerySlider === 'function') {

@@ -293,13 +293,13 @@
     transform: translate(2px, -2px);
 }
 
-/* YBS Button Position */
-.cta-btn.ybs-btn {
+/* Book Button Position */
+.cta-btn.book-btn {
     right: 152px;
 }
 
-/* Book Button Position */
-.cta-btn.book-btn {
+/* YBS Button Position */
+.cta-btn.ybs-btn {
     right: 20px;
 }
 

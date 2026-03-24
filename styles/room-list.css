@@ -362,7 +362,8 @@
     }
 
     .room-card-image {
-        height: 250px;
+        height: 300px;
+        min-height: auto;
     }
 
     .room-card-content::before {
@@ -396,6 +397,10 @@
 
     .room-card {
         transform: translateX(0) !important;
+    }
+
+    .room-card-image {
+        height: 300px;
     }
 
     .room-card-image::after {
@@ -464,7 +469,7 @@
     }
 
     .room-card-image {
-        height: 200px;
+        height: 300px;
     }
 
     .circle-background {
