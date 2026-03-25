@@ -954,12 +954,12 @@ color-mix(in srgb, var(--color-secondary) 0%, var(--color-primary)) 70%, var(--c
 /* Mobile version - Active image only visible with opacity */
 @media (max-width: 768px) {
     .gallery-slide {
-        width: 90%;
+        width: 90vw;
         opacity: 0;
     }
 
     .gallery-slide.active {
-        width: 90%;
+        width: 90vw;
         opacity: 1;
     }
 }
